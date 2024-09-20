@@ -152,6 +152,9 @@ fun DisplayController(modifier: Modifier = Modifier) {
             horizontalArrangement = Arrangement.Center) {
             Button(
                 onClick = {
+                    // Check if the current index is 0 (the first artwork)
+                    // If so, wrap around to the last artwork in the list
+                    // Otherwise, decrement current index to go to the previous artwork
                     currentIndex = if (currentIndex == 0) artworks.size - 1 else currentIndex - 1
                 },
                 colors = ButtonDefaults.buttonColors(
