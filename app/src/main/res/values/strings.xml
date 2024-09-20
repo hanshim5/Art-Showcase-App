@@ -1,5 +1,15 @@
 <resources>
+
     <string name="app_name">Art Space</string>
     <string name="artwork">Artwork</string>
+
+    <string name="artist_fallen_angel">Alexandre Cabanel (1847)</string>
+    <string name="title_fallen_angel">Fallen Angel</string>
+
+    <string name="artist_woman_with_parasol">Claude Monet (1875)</string>
+    <string name="title_woman_with_parasol">Woman with a Parasol</string>
+
+    <string name="artist_spring_time">Pierre Auguste Cot (1873)</string>
+    <string name="title_spring_time">Springtime</string>
 
 </resources>
